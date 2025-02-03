@@ -925,3 +925,33 @@ html{
     background-color: transparent;
     color: #14bf98;
   }
+
+  .ad-container {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    margin-top: 20px; /* Space above the ad */
+    margin-bottom: 20px; /* Space below the ad */
+}
+
+.ad-section {
+    width: 80%; /* Adjust for desired width and side spacing */
+    background-color: #f0f0f0; /* Optional background */
+    border-radius: 5px; /* Optional rounded corners */
+    overflow: hidden; /* Prevent image overflow */
+    display: flex;
+    justify-content: center; /* Center image horizontally */
+    align-items: center; /* Center image vertically */
+    border: 1px dashed #ccc; /* Optional border */
+    height: 60px;;
+}
+
+.ad-section a {
+    display: block; /* Make the link fill the ad section */
+}
+
+.ad-section img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Prevent small space below image */
+}
